@@ -138,6 +138,7 @@ const Header = () => {
               data-glf-cuid="fcc9622a-6d23-4af1-895b-5ff1021ff7b0" 
               data-glf-ruid="83c6af9e-70c9-4dc6-b2e8-223c37d5f648"
               id="glfButton1"
+              style={{ whiteSpace: `nowrap`}}
             >
               {' '}
               See Menu &amp; Order

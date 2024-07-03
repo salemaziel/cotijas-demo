@@ -63,7 +63,7 @@ const S1Hero4 = (props) => {
                             </div> */}
 
                         </div>
-                        <button className="w-full px-6 py-4 mt-4 text-lg font-medium leading-none text-white bg-green-700 rounded focus:outline-none md:text-sm hover:opacity-80 sm:mt-0 sm:ml-4 sm:w-auto">See Menu &amp; Order</button>
+                        <button className="w-full px-6 py-4 mt-4 text-lg font-medium leading-none text-white bg-green-700 rounded focus:outline-none md:text-sm hover:opacity-80 sm:mt-0 sm:ml-4 sm:w-auto whitespace-nowrap">See Menu &amp; Order</button>
                     </div>
                 </div>
             </div>
