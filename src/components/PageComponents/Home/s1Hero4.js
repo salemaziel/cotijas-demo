@@ -18,7 +18,7 @@ const S1Hero4 = (props) => {
         <section id="s1Hero4" className="w-full h-full bg-center bg-cover md:bg-top animate-fade-in-fwd heroBG"
                 style={{
                     backgroundImage: `url(${props.bgImage})`}}>
-                                    <div className="w-full xl:w-3/4 2xl:w-4/5">
+                                    <div className="w-full px-4">
                 <div className="bg-white">
                     <div className="relative items-center justify-between p-3 mt-8 border border-gray-100 rounded shadow md:mt-8 sm:p-5 2xl:flex">
                         <div className="flex items-center justify-between">

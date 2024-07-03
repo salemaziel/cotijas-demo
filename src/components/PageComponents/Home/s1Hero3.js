@@ -11,7 +11,7 @@ const S1Hero3 = (props) => {
       style={{
           backgroundImage: `linear-gradient(to right, rgba(47, 133, 90, 0.65) 0%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 66%, rgba(213, 0, 0, 0.65)), linear-gradient(to right, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url(${props.bgImage})`,
         }}>
-        <div className="w-full md:max-w-2xl lg:max-w-3xl flex flex-col items-center justify-center px-5 py-24 mx-auto lg:pb-8 animate-fade-in-fwd">
+        <div className="w-full relative sm:max-w-screen-sm md:max-w-screen-md xl:max-w-screen-xl 2xl:max-w-screen-2xl  flex flex-col items-center justify-center px-5 py-24 mx-auto lg:pb-8 animate-fade-in-fwd">
         <div className="mx-auto mb-5 lg:w-1/4">
           <img
             className="object-cover object-center w-3/4 mx-auto rounded"

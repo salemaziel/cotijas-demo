@@ -3,7 +3,7 @@ import React from 'react';
 import { FaFacebook, FaYelp } from "react-icons/fa"
 
 const Footer = () => (
-  <footer className="w-full md:max-w-2xl lg:max-w-3xl px-3 py-16 mx-auto mt-48 mb-8 text-gray-800">
+  <footer className="w-full relative sm:max-w-screen-sm md:max-w-screen-md xl:max-w-screen-xl 2xl:max-w-screen-2xl  px-3 py-16 mx-auto mt-48 mb-8 text-gray-800">
     <div className="flex -mx-3">
       <div className="flex-1 px-3">
         <h2 className="text-lg font-semibold">About Us</h2>

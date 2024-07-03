@@ -6,7 +6,7 @@ const S3MenuButton = () => {
         <>
 <section className="px-5 py-20 mx-auto my-20 lg:px-32">
 <Fade bottom>
-    	<div className="w-full md:max-w-2xl lg:max-w-3xl mx-auto lg:w-3/4">
+    	<div className="w-full relative sm:max-w-screen-sm md:max-w-screen-md xl:max-w-screen-xl 2xl:max-w-screen-2xl  mx-auto lg:w-3/4">
 
         		<div className="flex justify-center flex-initial">
 

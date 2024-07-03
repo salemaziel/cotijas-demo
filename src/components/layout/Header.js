@@ -103,7 +103,7 @@ const Header = () => {
 
         <nav
           className={
-            'w-full md:max-w-2xl lg:max-w-3xl flex-col items-center justify-between px-8 py-4 mx-auto sm:flex-row' +
+            'w-full relative sm:max-w-screen-sm md:max-w-screen-md xl:max-w-screen-xl 2xl:max-w-screen-2xl  flex-col items-center justify-between px-8 py-4 mx-auto sm:flex-row' +
             (scroll ? ' flex' : ' flex')
           }
         >

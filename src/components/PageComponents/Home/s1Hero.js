@@ -7,7 +7,7 @@ const S1Hero = (props) => {
   return (
     <>
       <section className="pt-24 md:pt-40 heroBG" style={{backgroundImage: `linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(${props.bgImage})`, backgroundSize: "cover", backgroundRepeat: "no-repeat"}}>
-        <div className="w-full md:max-w-2xl lg:max-w-3xl px-8 mx-auto lg:flex">
+        <div className="w-full relative sm:max-w-screen-sm md:max-w-screen-md xl:max-w-screen-xl 2xl:max-w-screen-2xl  px-8 mx-auto lg:flex">
         <div className="mb-5 lg:w-1/2">
             <img src={Logo} alt='' className="w-1/2 mx-auto" />
           </div>

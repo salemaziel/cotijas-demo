@@ -14,9 +14,9 @@ import {
 const S2BizDetailsCard = () => {
 return(
     <>
-<div className="w-full md:max-w-2xl lg:max-w-3xl relative w-full h-full px-4 mx-auto my-20">
+<div className="relative w-full h-full px-4 mx-auto my-20 sm:max-w-screen-sm md:max-w-screen-md xl:max-w-screen-xl 2xl:max-w-screen-2xl">
   <Fade bottom>
-  <div className="w-full md:max-w-2xl lg:max-w-3xl flex flex-col text-gray-800 bg-white border border-gray-200 rounded-lg shadow-xl md:flex-row rounded-xl">
+  <div className="flex flex-col w-full text-gray-800 bg-white border border-gray-200 rounded-lg shadow-xl md:max-w-2xl lg:max-w-3xl md:flex-row rounded-xl">
 
     <div className="w-full mx-auto">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2048.2222241727227!2d-117.10182485206931!3d32.74575493125262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9541492b869ab%3A0x88e5ef22dc35c99c!2sCotija&#39;s%20Mex%20Grill%20and%20Seafood!5e0!3m2!1sen!2sus!4v1691640682123!5m2!1sen!2sus" width="100%" height="100%" className="w-full h-64 mb-8 rounded-t-xl md:rounded-tl-xl md:rounded-bl-xl md:rounded-r-none md:h-full" loading="lazy" frameBorder={0} style={{border: 0}} allowFullScreen aria-hidden="false" tabIndex={0} title="That Mexican Place Map Location" />

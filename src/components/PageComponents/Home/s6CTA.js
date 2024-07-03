@@ -5,7 +5,7 @@ import Button from "../../Button"
 const S6CTA = (props) => {
   return (
     <>
-      <section className="w-full md:max-w-2xl lg:max-w-3xl mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
+      <section className="w-full relative sm:max-w-screen-sm md:max-w-screen-md xl:max-w-screen-xl 2xl:max-w-screen-2xl  mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
         <h3 className="text-5xl font-semibold">{props.Title}</h3>
         <p className="mt-8 text-xl font-light">
             {props.Description}
