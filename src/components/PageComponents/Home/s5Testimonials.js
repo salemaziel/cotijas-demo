@@ -8,7 +8,7 @@ const S5Testimonials = (props) => {
   return (
     <>
         <section id="testimonials" className="py-20 lg:py-40">
-      <div className="container mx-auto">
+      <div className="w-full md:max-w-2xl lg:max-w-3xl mx-auto">
         <LabelText className="mb-8 text-gray-600 text-center">
         {props.Title}
         </LabelText>

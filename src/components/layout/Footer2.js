@@ -11,7 +11,7 @@ const Footer2 = () => {
   return (
     <>
       <footer className="text-gray-600 body-font">
-        <div className="container flex flex-col flex-wrap px-5 py-24 mx-auto md:items-center lg:items-start md:flex-row md:flex-nowrap">
+        <div className="w-full md:max-w-2xl lg:max-w-3xl flex flex-col flex-wrap px-5 py-24 mx-auto md:items-center lg:items-start md:flex-row md:flex-nowrap">
           <div className="flex-shrink-0 w-3/4 mx-auto text-center md:w-1/2 md:mx-0 md:text-left">
             <a className="flex items-center justify-center font-medium text-gray-900 title-font md:justify-start">
               {/*<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-10 h-10 p-2 text-white bg-red-500 rounded-full" viewBox="0 0 24 24">
@@ -64,7 +64,7 @@ const Footer2 = () => {
           </div>
         </div>
         <div className="bg-black">
-          <div className="container flex flex-col flex-wrap px-5 py-4 mx-auto sm:flex-row">
+          <div className="w-full md:max-w-2xl lg:max-w-3xl flex flex-col flex-wrap px-5 py-4 mx-auto sm:flex-row">
             <p className="text-sm text-center text-gray-100 sm:text-left">
               © 2021 That Mexican Place
             </p>

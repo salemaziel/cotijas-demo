@@ -1,9 +1,9 @@
 // gatsby-config.js
 module.exports = {
 	siteMetadata: {
-		title: `Gatsby Default Starter`,
-		description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-		author: `@gatsbyjs`
+		title: `Cotijas Taco Shop`,
+		description: `Cotijas Taco Shop is a Mexican restaurant located at San Diego, CA. Mexican food near San Diego.`,
+		author: `@viadelweb`
 	},
 	plugins: [
 		`gatsby-plugin-postcss`,
@@ -14,8 +14,8 @@ module.exports = {
 			options: {
 			  title: 'Cotijas Taco Shop',
 			  titleTemplate: 'Cotijas Taco Shop | %s ',
-			  description: 'Cotijas Taco Shop is a Mexican restaurant located at Escondido, CA. Mexican food near Escondido.',
-			  canonical: 'https://www.thatmexicanplace.net/',
+			  description: 'Cotijas Taco Shop is a Mexican restaurant located at San Diego, CA. Mexican food near San Diego.',
+			  //canonical: 'https://www.thatmexicanplace.net/',
 			  defaultOpenGraphImageHeight: 1200,
 			  defaultOpenGraphImageWidth: 1200,
 	  //        mobileAlternate: {
@@ -31,12 +31,12 @@ module.exports = {
 			  openGraph: {
 				type: 'website',
 				locale: 'en_US',
-				url: 'https://www.thatmexicanplace.net',
+				url: 'https://cotijastacoshop.netlify.app/',
 				title: 'Cotijas Taco Shop',
 				description: 'Cotijas Taco Shop is a Mexican restaurant located at Escondido, CA. Mexican food near Escondido.',
 				images: [
 				  {
-					url: 'https://www.thatmexicanplace.net/logo/logo.png',
+					url: 'https://cotijastacoshop.netlify.app/logo/logo.png',
 					width: 800,
 					height: 600,
 					alt: 'Cotijas Taco Shop Logo',
@@ -45,8 +45,8 @@ module.exports = {
 				site_name: 'Cotijas Taco Shop',
 			  },
 			  twitter: {
-				handle: '@thatmexicanplace',
-				site: '@thatmexicanplace',
+				handle: '@cotijastacoshop',
+				site: '@cotijastacoshop',
 				cardType: 'summary_large_image',
 			  },
 	  //        facebook: {
@@ -63,20 +63,20 @@ module.exports = {
 		},
 		`gatsby-transformer-sharp`,
 		`gatsby-plugin-sharp`,
-		{
-			resolve: 'gatsby-plugin-robots-txt',
-			options: {
-			  host: 'https://www.thatmexicanplace.net',
-			  sitemap: 'https://www.thatmexicanplace.net/sitemap.xml',
-			  policy: [{ userAgent: '*', allow: '/' }]
-			}
-		  }, 
+//		{
+//			resolve: 'gatsby-plugin-robots-txt',
+//			options: {
+//			  host: 'https://www.thatmexicanplace.net',
+//			  sitemap: 'https://www.thatmexicanplace.net/sitemap.xml',
+//			  policy: [{ userAgent: '*', allow: '/' }]
+//			}
+//		  }, 
 		  {
 			resolve: `gatsby-plugin-manifest`,
 			options: {
 			  name: `Cotijas Taco Shop`,
 			  short_name: `Cotijas Taco Shop`,
-			  description: `Cotijas Taco Shop is a Mexican restaurant located at Escondido, CA. Mexican food near Escondido`,
+			  description: `Cotijas Taco Shop is a Mexican restaurant located at San Diego, CA. Mexican food near San Diego.`,
 			  start_url: `/`,
 			  lang: `en`,
 			  background_color: `#e53e3e`,
