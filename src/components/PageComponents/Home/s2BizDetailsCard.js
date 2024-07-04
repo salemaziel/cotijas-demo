@@ -14,7 +14,7 @@ import {
 const S2BizDetailsCard = () => {
 return(
     <>
-<div className="relative flex w-full h-full px-4 mx-auto my-20 ">
+<div className="container relative flex justify-center w-full h-full px-4 mx-auto my-20 ">
   <Fade bottom>
   <div className="container relative flex flex-col w-full text-gray-800 bg-white border border-gray-200 rounded-lg shadow-xl md:max-w-2xl lg:max-w-4xl xl:max-w-5xl md:flex-row rounded-xl">
 
