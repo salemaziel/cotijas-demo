@@ -7,7 +7,7 @@ const Pillz = () => {
   return (
     <>
       <Fade top>
-        <div className="container">
+        <div className="containerPillz">
           <a href="https://youtube.com"  className="card-left">
             <div className="card-image">
               <img  src="https://images.pexels.com/photos/220072/pexels-photo-220072.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" />

@@ -5,7 +5,7 @@ const S2Features = (props) => {
   return (
     <>
       <section id="features" className="py-20 lg:pb-40 lg:pt-48">
-        <div className="w-full relative sm:max-w-screen-sm md:max-w-screen-md xl:max-w-screen-xl 2xl:max-w-screen-2xl  mx-auto text-center">
+        <div className="w-full container mx-auto text-center">
           <h2 className="text-3xl lg:text-5xl font-semibold">{props.Title}</h2>
           <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
             <div className="flex-1 px-3">

@@ -6,7 +6,7 @@ const S1Hero2 = (props) => {
   return (
     <>
       <section className="text-gray-600 body-font" style={{backgroundImage: `url(${props.bgImage})`, backgroundPosition: "cover", backgroundRepeat: "no-repeat"}}>
-        <div className="w-full relative sm:max-w-screen-sm md:max-w-screen-md xl:max-w-screen-xl 2xl:max-w-screen-2xl  mx-auto flex px-5 py-12 md:py-24 md:flex-row flex-col items-center">
+        <div className="w-full container mx-auto flex px-5 py-12 md:py-24 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-1/2 mb-10 md:mb-0">
             <img
               className="object-cover object-center rounded"
